@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ProdServerStart" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="play.core.server.ProdServerStart" />
+    <module name="kotlin-gradle-play-scala-fml.main" />
+    <option name="VM_PARAMETERS" value="-Dconfig.resource=application.conf -Dlogger.file=conf/logback-overrides.xml" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
